@@ -1,0 +1,17 @@
+{
+    "name": "kasonyang/phpcomment",
+    "description": "A Simple Doc Comment Parser For PHP",
+    "authors": [
+        {
+            "name": "kasonyang",
+            "email": "i@kasonyang.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-0": {
+            "PhpComment": "libs"
+        }
+    },
+    "license":"MIT"
+}
