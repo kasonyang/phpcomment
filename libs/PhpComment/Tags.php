@@ -27,7 +27,8 @@ class Tags{
         $lines = explode("\n", trim($raw_comment));
         foreach($lines as $l){
             $l_str = ltrim($l);
-            $l_str = ltrim($l_str,' *');
+            $l_str = ltrim($l_str,'*');
+            $l_str = trim($l_str);
             if(substr($l_str, 0,1) === '@'){
                 $space_offset = strpos($l_str, ' ');
                 if($space_offset === FALSE){
